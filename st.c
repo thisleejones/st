@@ -39,6 +39,9 @@
 
 /* macros */
 #define IS_SET(flag)		((term.mode & (flag)) != 0)
+																\
+
+																\
 #define NUMMAXLEN(x)		((int)(sizeof(x) * 2.56 + 0.5) + 1)
 #define ISCONTROLC0(c)		(BETWEEN(c, 0, 0x1f) || (c) == '\177')
 #define ISCONTROLC1(c)		(BETWEEN(c, 0x80, 0x9f))
